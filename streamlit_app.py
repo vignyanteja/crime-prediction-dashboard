@@ -29,7 +29,8 @@ import folium
 from streamlit_folium import st_folium
 import joblib
 
-DATA_PATH = Path("/mnt/data/crime_dataset_india.csv")
+DATA_PATH = Path("crime_dataset_india.csv")
+
 
 st.set_page_config(page_title="Crime Prediction & Analysis", layout="wide", initial_sidebar_state="expanded")
 
